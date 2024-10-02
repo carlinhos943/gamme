@@ -1,0 +1,52 @@
+.modal{
+    padding: 0;
+    margin: 0;
+}
+.modal{
+
+background-color: rgb(255, 251, 1);
+height: 400px;
+width: 300px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+body{
+    background-image: url("../assents/senai001_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#logo-img{
+    height:60px ;
+    width:200px ;
+}
+input{
+
+    height: 25px;
+    width: 195px ;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 2px 2px 2px #ccc;
+
+}
+button{
+    height: 20px;
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+    color: aliceblue;
+    background-color: blue;
+}
+
+.caixa-butoes{
+    height: 250px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;  
+    justify-content: space-evenly;
+}
+
